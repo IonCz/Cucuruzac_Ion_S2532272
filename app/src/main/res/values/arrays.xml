@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="places">
+        <item>Glasgow (GCU)</item>
+        <item>Edinburgh</item>
+        <item>Stirling</item>
+        <item>Dunfermline (Fife)</item>
+        <item>Perth</item>
+        <item>Dundee</item>
+        <item>Aberdeen</item>
+        <item>Inverness (Highlands)</item>
+        <item>Fort William</item>
+        <item>Oban (Argyll)</item>
+        <item>Ayr (Ayrshire)</item>
+        <item>Dumfries (Dumfries and Galloway)</item>
+        <item>Galashiels (Borders)</item>
+
+    </string-array>
+</resources>

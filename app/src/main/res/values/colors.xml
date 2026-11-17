@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="DimGray">#696969</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="FireBrick">#B22222</color>
+</resources>

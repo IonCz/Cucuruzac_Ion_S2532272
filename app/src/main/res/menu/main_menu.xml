@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:title="@string/refresh" />
+
+
+    <item
+        android:id="@+id/map"
+        android:title="@string/menu_map" />
+
+
+    <item
+        android:id="@+id/list"
+        android:title="@string/menu_list" />
+
+
+
+
+    <item
+        android:id="@+id/incidents"
+        android:title="@string/menu_incidents" />
+
+    <item
+        android:id="@+id/roadworks"
+        android:title="@string/menu_roadworks" />
+
+    <item
+        android:id="@+id/legend"
+        android:title="@string/menu_legend" />
+
+
+</menu>

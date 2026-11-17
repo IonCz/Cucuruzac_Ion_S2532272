@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Traffic Scotland</string>
+    <string name="toolbar_title">Traffic Scotland</string>
+    <string name="refresh">Refresh</string>
+    <string name="menu_list">Show all situations</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_map">Show / hide the map</string>
+    <string name="menu_incidents">Show incidents only</string>
+    <string name="menu_roadworks">Show roadworks only</string>
+    <string name="menu_legend">What the icons mean</string>
+    <string name="acknowledgement">Contains Traffic Scotland data</string>
+    <string name="select_situation">Select a situation from the list to see the details</string>
+    <string name="salutation">Current incidents and roadworks</string>
+    <string name="getting_data">Getting data...</string>
+    <string name="refresh_now">Refresh now</string>
+    <string name="details_when">When</string>
+    <string name="details_where">Where</string>
+    <string name="details_impact">Impact on traffic</string>
+    <string name="details_other">More information</string>
+    <string name="search_road_label">Search by road name</string>
+    <string name="search_road_hint">e.g. M8, A9, A82</string>
+    <string name="search_near_label">Or search near a place</string>
+    <string name="search_within">Within</string>
+    <string name="search_km">km</string>
+    <string name="search_road_button">Search road</string>
+    <string name="search_near_button">Search nearby</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_hint">To see everything again: 3 dots menu - Show all situations</string>
+
+    <string name="legend_title">What the icons mean</string>
+    <string name="ok">OK</string>
+    <string name="legend_roadworks">Roadworks</string>
+    <string name="legend_close">Something is closed - a lane, a slip road or the whole road</string>
+    <string name="legend_lights">Temporary traffic lights or Stop/Go</string>
+    <string name="legend_warning">Signs, message boards or a lower speed limit only (or another kind of incident)</string>
+    <string name="legend_verge">Works on the grass verge next to the road</string>
+    <string name="legend_diversion">Diversion route or contraflow</string>
+    <string name="legend_car">Queuing traffic or a vehicle blocking the road</string>
+    <string name="legend_accident">Accident</string>
+    <string name="legend_rain">Bad weather or something on the road (flooding, ice, fallen tree)</string>
+    <string name="legend_colours">How long the roadworks last (bar on the left of the list)</string>
+    <string name="legend_short">Short - 7 days or less</string>
+    <string name="legend_medium">Medium - up to 30 days</string>
+    <string name="legend_long">Long - more than 30 days</string>
+
+    <string name="legend_map">On the map tap an icon to see what it is, then tap the box to see all the details.
+        The blue pin is the situation picked in the list.
+        To read about it, tap the box over the pin or hide the map (3 dots menu).</string>
+
+    <!-- text that openmoji asks for -->
+    <string name="icon_source">All emojis designed by OpenMoji – the open-source emoji and icon project. License: CC BY-SA 4.0</string>
+</resources>
