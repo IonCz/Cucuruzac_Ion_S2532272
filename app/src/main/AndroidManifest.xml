@@ -29,7 +29,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="${MAPS_API_KEY}" />
-
+        <!-- to run the app, add TS_CLIENT_ID and TS_CLIENT_KEY with your own values to local.properties -->
         <meta-data android:name="org.me.gcu.cucuruzac_ion_s2532272.TS_CLIENT_ID" android:value="${TS_CLIENT_ID}" />
         <meta-data android:name="org.me.gcu.cucuruzac_ion_s2532272.TS_CLIENT_KEY" android:value="${TS_CLIENT_KEY}" />
 
