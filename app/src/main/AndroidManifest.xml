@@ -30,7 +30,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="${MAPS_API_KEY}" />
 
-        <!-- traffic scotland id and key, the values are in local.properties (protectingYourKeys.docx) -->
         <meta-data android:name="org.me.gcu.cucuruzac_ion_s2532272.TS_CLIENT_ID" android:value="${TS_CLIENT_ID}" />
         <meta-data android:name="org.me.gcu.cucuruzac_ion_s2532272.TS_CLIENT_KEY" android:value="${TS_CLIENT_KEY}" />
 
