@@ -197,7 +197,7 @@ public class TrafficViewModel extends AndroidViewModel
             }
             else if(s.getDescription() != null)
             {
-                String[] words = s.getDescription().split(" ");
+                String[] words = (s.getDescription() + " " + s.getDescription().replace("/", " ")).split(" ");
                 for(String w : words) {
                     w = w.replace(",", "").replace(".", "");
                     if(w.equalsIgnoreCase(road)){
@@ -506,12 +506,12 @@ public class TrafficViewModel extends AndroidViewModel
             showProgress(70);
             String message;
 
-            if(incidents.equals("") || roadworks.equals(""))
+            if(incidents.indexOf("</d2LogicalModel>") < 0 || roadworks.indexOf("</d2LogicalModel>") < 0)
             {
-                // no internet- use the last saved data
+                // no internet or data ddnt fully arive , will use the last saved data
                 incidents = readFile("incidents.xml");
                 roadworks = readFile("roadworks.xml");
-                if(incidents.equals(""))
+                if(incidents.indexOf("</d2LogicalModel>") < 0)
                 {
                     // if didnt download its using the res and raw files
                     incidents = readTestFile(R.raw.unplanned_example);
